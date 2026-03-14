@@ -50,7 +50,7 @@ class _SubjectListScreenState extends State<SubjectListScreen> {
               final subject = provider.subjects[index];
 
               return Card(
-                elevation: 2,
+                elevation: 1,
                 margin: const EdgeInsets.only(bottom: 12),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
